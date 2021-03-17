@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contactus() {
   return (
-    <div style={{ backgroundColor: "#f9f6f7" }} className="p-3">
+    <div style={{ backgroundColor: "#f9f6f7" }} className="p-3" id="contact-us">
       <div className="display-5 mt-5 text-center color">Contact Us</div>
       <div className="container mt-4">
         <div
