@@ -7,10 +7,10 @@ import heart from "../assets/heart.png";
 export default function Footer() {
   return (
     <div style={{ backgroundColor: "#ffe3df" }}>
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div
-            className="col-lg-6 m-5 col-12 "
+            className="col-lg-6 m-1 col-12 "
             style={{ display: "flex", alignItems: "center" }}
           >
             <img src={logo} alt="" width="150" height="150" />

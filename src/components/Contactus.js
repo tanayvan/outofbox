@@ -23,7 +23,7 @@ export default function Contactus() {
               <input
                 type="email"
                 class="form-control m-1 mt-3"
-                placeholder="Enter Your Email Number Here"
+                placeholder="Enter Your Email  Here"
               />
               <input
                 type="number"
