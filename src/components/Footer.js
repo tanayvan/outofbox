@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div
-            className="col-lg-6 m-5 "
+            className="col-lg-6 m-5 col-12 "
             style={{ display: "flex", alignItems: "center" }}
           >
             <img src={logo} alt="" width="150" height="150" />
