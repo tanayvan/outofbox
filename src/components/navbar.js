@@ -27,10 +27,37 @@ export default function Navbar() {
                 Home
               </Link>
             </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/collections">
+            <li class="nav-item dropdown">
+              <Link
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 Our Collection
               </Link>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <Link class="dropdown-item" to="/collection/cake">
+                    Cakes
+                  </Link>
+                </li>
+                <li>
+                  <Link class="dropdown-item" to="/collection/chocobouquet">
+                    Choco Bouquet
+                  </Link>
+                </li>
+                <li>
+                  <Link class="dropdown-item" to="/collection/aanadecoration">
+                    Aana Decoration
+                  </Link>
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
               <Link class="nav-link" to="/about">
