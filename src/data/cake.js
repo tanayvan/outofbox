@@ -1,4 +1,4 @@
-export default [
+const cake = [
   {
     original:
       "https://res.cloudinary.com/dbpwonhqd/image/upload/v1615991539/outofbox/cake/IMG_20201022_211053_jy0rjj.jpg",
@@ -37,3 +37,5 @@ export default [
       "https://res.cloudinary.com/dbpwonhqd/image/upload/v1615991538/outofbox/cake/IMG_20210227_201817_exerfy.jpg",
   },
 ];
+
+export default cake;

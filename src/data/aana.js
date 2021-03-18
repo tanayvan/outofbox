@@ -1,4 +1,4 @@
-export default [
+const aana = [
   {
     original:
       "https://res.cloudinary.com/dbpwonhqd/image/upload/v1615991604/outofbox/aana/IMG_20191201_083350_krg8pj.jpg",
@@ -72,3 +72,5 @@ export default [
       "https://res.cloudinary.com/dbpwonhqd/image/upload/v1615991592/outofbox/aana/IMG_20191024_142508_254_cenlej.jpg",
   },
 ];
+
+export default aana;

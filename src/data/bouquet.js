@@ -1,4 +1,4 @@
-export default [
+const boquet = [
   {
     original:
       "https://res.cloudinary.com/dbpwonhqd/image/upload/v1615991573/outofbox/choco/IMG_20200202_172538_qckzbv.jpg",
@@ -66,3 +66,5 @@ export default [
       "https://res.cloudinary.com/dbpwonhqd/image/upload/v1615991563/outofbox/choco/IMG_20191119_225805_961_ntfsdt.jpg",
   },
 ];
+
+export default boquet;
