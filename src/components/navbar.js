@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="container-fluid">
         <Link class="navbar-brand" to="/">
-          <img src={logo} alt="" width="100" height="100" className="m-2" />
+          <img src={logo} alt="" width="100" height="100" className="m-1" />
         </Link>
         <button
           class="navbar-toggler"
@@ -59,10 +59,13 @@ export default function Navbar() {
                 </li>
               </ul>
             </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/about">
-                About Us
-              </Link>
+            <li class="nav-item ">
+              <a
+                href="https://www.instagram.com/out_of_box_crafts/"
+                class="nav-link "
+              >
+                <i class="fab fa-instagram" style={{ fontSize: "2rem" }}></i>
+              </a>
             </li>
           </ul>
         </div>

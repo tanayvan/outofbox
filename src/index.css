@@ -12,7 +12,7 @@
 }
 
 .navbar-brand {
-  margin-right: 10rem;
+  margin-right: 8rem;
 }
 
 .nav-link {
@@ -39,7 +39,14 @@
 
 .footer-link {
   text-decoration: none;
+  margin: 0 1rem;
 }
 .footer-link:hover {
   color: black;
+}
+
+.btn-outline-dark.disabled,
+.btn-outline-dark:disabled {
+  color: #ff725e;
+  background-color: transparent;
 }
